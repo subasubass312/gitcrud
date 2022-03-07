@@ -1,0 +1,12 @@
+.edit{
+    border-style: inherit;
+    background-color: black;
+    color: white;
+    height: 500px;
+    width: 400px;
+    margin-left: 600px;
+}
+#sty{
+    text-align: center;
+    margin-left:150px;
+}

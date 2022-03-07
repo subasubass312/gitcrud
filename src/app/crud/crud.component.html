@@ -1,0 +1,28 @@
+<h1>login form</h1>
+<form class="edit" [formGroup]="login"><br>
+    <label>name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="text" formControlName="name"placeholder="name"><br><br>
+    <label>age</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="number"  placeholder="age" ormControlName="age"><br><br>
+    <label>gender</label>&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="radio" formControlName="gender">
+    <label>female</label>
+    <input type="radio">
+    <label>male</label><br>
+    <label>qualification</label>&nbsp;
+    <input type="text" formControlName="qualification" placeholder="qualification"><br><br>
+    <label>experiance</label>&nbsp;&nbsp;&nbsp;
+    <input type="text" formControlName="experiance" placeholder="experience"><br><br>
+    <label>place</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="place" formControlName="place" placeholder="place"><br><br>
+    <button id="sty" type="submit" (click)="getdata()">submit</button>
+    
+    <div *ngFor="let item of data"> 
+    {{item.name}}
+    {{item.age}}
+    {{item.gender}}
+    {{item.qualification}}
+    {{item.experience}}
+    {{item.place}}
+        </div>
+    </form>

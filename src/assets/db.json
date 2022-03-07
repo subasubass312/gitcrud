@@ -1,0 +1,13 @@
+{
+    "stud":[
+        {
+"id":1
+        },
+        {"name":"shalini",
+            "age":12,
+            "gender":"female",
+            "qualification":"MBA",
+            "experience":"one year",
+            "place":"chennai"
+        }]
+}

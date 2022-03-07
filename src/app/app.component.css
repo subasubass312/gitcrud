@@ -1,0 +1,12 @@
+.bg{
+    color:white;
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+
+}
+.s{
+    background-color: gray;
+    float:right;
+}
